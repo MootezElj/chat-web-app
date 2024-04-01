@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/css/bootstrap-grid.min.css'
 import '../styles/bootstrap.min.css'
 import Navbar from "@/components/Navbar";
-import './globals.css';
+import '../styles/globals.css';
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Navbar/>
-      <div className="container mt-5">{children}</div>
+      <div className="container">{children}</div>
     </html>
   );
 }

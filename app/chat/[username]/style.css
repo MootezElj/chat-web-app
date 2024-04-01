@@ -1,10 +1,8 @@
 .chatBox {
-    padding: 10px 10px;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
     align-self: flex-end;
-    color: #000000;
 }
 .inlineContainer {
     display: inline-flex;
@@ -19,7 +17,7 @@
 .ownBox {
     min-width: 60px;
     max-width: 700px;
-    padding: 14px 18px;
+    padding: 10px 18px;
     margin: 6px 8px;
     background-color: #bee3ff;
     border-radius: 16px 16px 0 16px;
@@ -29,7 +27,7 @@
 .otherBox {
     min-width: 60px;
     max-width: 700px;
-    padding: 14px 18px;
+    padding: 10px 18px;
     margin: 6px 8px;
     background-color: #dadada;
     border-radius: 16px 16px 16px 0;

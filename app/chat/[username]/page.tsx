@@ -1,5 +1,5 @@
 import React from 'react';
-import {BACK_END_URL} from '/config/Config'
+import {BACK_END_URL} from "@/config/Config";
 import './style.css';
 import ChatBox from "@/app/chat/components/chatBox";
 
@@ -10,10 +10,10 @@ export default async function Page({params}) {
     const messages:Message[] = chat[0].messages.sort(function (msg1,msg2) {
         const d1 = new Date(msg1.date);
         const d2 = new Date(msg2.date);
-        return d1 - d2
+        return d1 - d2;
     });
     return (
-        <div>
+        <div className="w-75 m-auto p-4">
             <h1>Chat 2 with {chatPartner}</h1>
             {messages.map(msg => <ChatBox
                 content={msg.content}
