@@ -1,0 +1,49 @@
+.chatBox {
+    padding: 10px 10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-self: flex-end;
+    color: #000000;
+}
+.inlineContainer {
+    display: inline-flex;
+}
+.inlineContainer.own {
+    flex-direction: row-reverse;
+}
+.inlineIcon {
+    width:20px;
+    object-fit: contain;
+}
+.ownBox {
+    min-width: 60px;
+    max-width: 700px;
+    padding: 14px 18px;
+    margin: 6px 8px;
+    background-color: #bee3ff;
+    border-radius: 16px 16px 0 16px;
+    border: 3px solid #65b7ff;
+
+}
+.otherBox {
+    min-width: 60px;
+    max-width: 700px;
+    padding: 14px 18px;
+    margin: 6px 8px;
+    background-color: #dadada;
+    border-radius: 16px 16px 16px 0;
+    border: 3px solid #929292;
+
+}
+.own {
+    align-self: flex-end;
+}
+.other {
+    align-self: flex-start;
+}
+span.own,
+span.other{
+    font-size: 14px;
+    color: grey;
+}
