@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ChatBox = ({isOwn, content, date}) => {
+const ChatBox = ({isOwn, content, date}: {isOwn: boolean, content: string, date: string}) => {
 
     return (
         <div>
@@ -12,7 +12,6 @@ const ChatBox = ({isOwn, content, date}) => {
                     </div>
                 </div><span className={isOwn?"own":"other"}>{date}</span>
             </div>
-
         </div>
     );
 };

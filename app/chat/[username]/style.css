@@ -17,21 +17,21 @@
 .ownBox {
     min-width: 60px;
     max-width: 700px;
-    padding: 10px 18px;
+    padding: 10px 16px;
     margin: 6px 8px;
-    background-color: #bee3ff;
+    background-color: #dbf4ff;
     border-radius: 16px 16px 0 16px;
-    border: 3px solid #65b7ff;
+    border: 3px solid #ebf6ff;
 
 }
 .otherBox {
     min-width: 60px;
     max-width: 700px;
-    padding: 10px 18px;
+    padding: 10px 16px;
     margin: 6px 8px;
-    background-color: #dadada;
+    background-color: #e6e6e6;
     border-radius: 16px 16px 16px 0;
-    border: 3px solid #929292;
+    border: 3px solid #eaeaea;
 
 }
 .own {
@@ -45,3 +45,11 @@ span.other{
     font-size: 14px;
     color: grey;
 }
+
+.send-message-block{
+    margin: 0 auto;
+    position: absolute;
+    bottom: 1%;
+    width: 1000px;
+}
+
